@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Messages</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Messages of Love</h1>
+        <div class="message-box">
+            <h2 id="message-title"></h2>
+            <p id="message-content"></p>
+            <div class="button-container">
+                <button id="previous-button" onclick="showPreviousMessage()" disabled>Previous</button>
+                <button id="next-button" onclick="showNextMessage()">Next</button>
+            </div>
+        </div>
+        <audio id="love-song" controls>
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
